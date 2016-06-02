@@ -1,0 +1,72 @@
+<style type="text/css">
+		h1 {
+			text-aling: center;
+
+		}
+		h2 {
+			color: red;
+			font-size: 20px;
+			width:200px;
+			font-family: cursive;
+		}
+
+		div {
+			color: blue;
+			font-size: 36px;
+		}
+
+		article {
+			color: brown;
+			text-align: left;
+  			text-orientation: sideways-right;
+  			opacity: .2;
+		}
+
+		footer, .bgblue {
+			background-color: aqua;
+			width: 150px;
+		}
+
+		#section1 {
+			background-color: black;	
+			width: 150px;
+			color: yellow;
+			opacity: .6;
+		}
+
+		li.bgpink {
+			font-family: cursive;
+			background-color: pink;
+			width: 150px;
+		}
+
+		article > p {
+			font-size: 10px;
+		}
+
+		span span {
+			font-style: italic;
+			font-family: cursive;
+		}
+
+		a:link, a:visited {
+			text-decoration: underline;
+			color: green;
+			background-color: pink;
+			width:2 00px;
+
+		}
+
+		a:hover, a:active {
+			background-color: red;
+		}
+
+		ol li:nth-child(1):hover {
+			background-color: purple;
+			cursor: pointer;
+		}
+
+		body {
+			background-color: gray;
+		}
+	</style>
