@@ -1,4 +1,11 @@
 <style type="text/css">
+		
+		* {
+			box-sizing: border-box;
+			margin-top: 0px;
+			margin-left: 0px;
+		}
+
 		h1 {
 			text-aling: center;
 
@@ -13,6 +20,7 @@
 		div {
 			color: blue;
 			font-size: 36px;
+			text-transform: capitalize;
 		}
 
 		article {
@@ -35,7 +43,7 @@
 		}
 
 		li.bgpink {
-			font-family: cursive;
+			font-family: monospace;
 			background-color: pink;
 			width: 150px;
 		}
@@ -50,15 +58,15 @@
 		}
 
 		a:link, a:visited {
-			text-decoration: underline;
-			color: green;
-			background-color: pink;
-			width:2 00px;
+			text-decoration: none;
+			color: blue;
+			background-color: none;
+			width: 200px;
 
 		}
 
 		a:hover, a:active {
-			background-color: red;
+			background-color: yellow;
 		}
 
 		ol li:nth-child(1):hover {
@@ -68,5 +76,32 @@
 
 		body {
 			background-color: gray;
+			font-size: 16px;
+
+
 		}
-	</style>
+
+		.box {
+			font-family: monospace;
+			color:black;
+			font-size: 16px;
+			height: 500px;
+			border: 1px solid black;
+			overflow: auto;
+
+		}
+		
+		#content {
+			font-family: sans-serif cursive;
+			background-color: aqua; 
+			background-image: url("http://www.gettyimages.pt/gi-resources/images/Homepage/Hero/PT/PT_hero_42_153645159.jpg");
+			background-position: top right;
+			color:white;
+			font: bold;
+			border-style: 2px groove black;	
+			font-size: 75%;	
+			border: 1px solid black;
+			height: 400px;	
+		}
+
+</style>
